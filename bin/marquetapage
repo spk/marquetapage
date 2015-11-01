@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'marquetapage/runner'
+
+exit_status = Marquetapage::Runner.run(ARGV)
+exit(exit_status)
