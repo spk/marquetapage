@@ -36,7 +36,7 @@ bundle exec rake
 
 The MIT License
 
-Copyright © 2015 Laurent Arnoud <laurent@spkdev.net>
+Copyright © 2015-2016 Laurent Arnoud <laurent@spkdev.net>
 
 ---
 [![Gem Version](https://badge.fury.io/rb/marquetapage.svg)](https://rubygems.org/gems/marquetapage)
