@@ -1,4 +1,6 @@
-ENV['MARQUETAPAGE_ENV'] = 'test'
+# frozen_string_literal: true
+
+ENV['MARQUETAPAGE_ENV'] = 'test'.freeze
 require 'minitest/autorun'
 require 'marquetapage'
 require 'marquetapage/runner'
