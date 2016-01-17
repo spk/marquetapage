@@ -39,8 +39,9 @@ The MIT License
 Copyright © 2015-2016 Laurent Arnoud <laurent@spkdev.net>
 
 ---
-[![Gem Version](https://badge.fury.io/rb/marquetapage.svg)](https://rubygems.org/gems/marquetapage)
-[![Build Status](https://secure.travis-ci.org/spk/marquetapage.svg?branch=master)](https://travis-ci.org/spk/marquetapage)
+[![Build](https://img.shields.io/travis-ci/spk/marquetapage.svg)](https://travis-ci.org/spk/marquetapage)
+[![Version](https://img.shields.io/gem/v/marquetapage.svg)](https://rubygems.org/gems/marquetapage)
+[![Documentation](https://img.shields.io/badge/doc-rubydoc-blue.svg)](http://www.rubydoc.info/gems/marquetapage)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT "MIT")
 [![Code Climate](http://img.shields.io/codeclimate/github/spk/marquetapage.svg)](https://codeclimate.com/github/spk/marquetapage)
 [![Inline docs](http://inch-ci.org/github/spk/marquetapage.svg?branch=master)](http://inch-ci.org/github/spk/marquetapage)
-[![License](https://img.shields.io/github/license/spk/marquetapage.svg)](http://opensource.org/licenses/MIT)
