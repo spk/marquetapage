@@ -2,6 +2,9 @@
 
 Extract from `places.sqlite` firefox bookmarks with specific tag to JSON format.
 
+Note: supporting now firefox >= 48, due to [moz_bookmarks_roots
+removal](https://bugzilla.mozilla.org/show_bug.cgi?id=1143712)
+
 ## Usage
 
 ~~~
