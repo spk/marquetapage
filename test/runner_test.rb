@@ -16,8 +16,6 @@ describe Marquetapage::Runner do
         @url = 'https://www.mozilla.org/en-US/firefox/central/'
         place_id = Place.insert url: @url
         bookmark_root_folder_id = 4
-        BookmarkRoot.insert root_name: 'tags',
-                            folder_id: bookmark_root_folder_id
         tag_id = Bookmark.insert type: 2, fk: nil,
                                  parent: bookmark_root_folder_id,
                                  title: @tag_name,

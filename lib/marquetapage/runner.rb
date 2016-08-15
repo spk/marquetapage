@@ -71,16 +71,11 @@ module Marquetapage
     end
 
     def bookmark_place_ids
-      Bookmark.distinct.select(:fk).where(parent: tag)
+      Bookmark.distinct.select(:fk).where(parent: tag_id)
     end
 
-    def tag
-      Bookmark.join(
-        :moz_bookmarks_roots,
-        root_name: 'tags',
-        moz_bookmarks__parent: :moz_bookmarks_roots__folder_id,
-        moz_bookmarks__title: @tag_name
-      ).select(:id)
+    def tag_id
+      Bookmark.where(moz_bookmarks__title: @tag_name).select(:id)
     end
   end
 end

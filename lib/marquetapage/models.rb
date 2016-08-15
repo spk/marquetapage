@@ -25,10 +25,6 @@ class Place < Sequel::Model(:moz_places)
   end
 end
 
-# moz_bookmarks_roots Sequel class
-class BookmarkRoot < Sequel::Model(:moz_bookmarks_roots)
-end
-
 # moz_bookmarks Sequel class
 class Bookmark < Sequel::Model(:moz_bookmarks)
 end
