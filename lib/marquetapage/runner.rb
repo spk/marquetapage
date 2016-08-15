@@ -17,7 +17,7 @@ module Marquetapage
     # @param [ARGV] args must include a tag
     # @return [Integer] Exit status
     def run(args)
-      fail ArgumentError unless args
+      raise ArgumentError unless args
       usage if args.empty?
       trap_interrupt
       @tag_name = args.first
@@ -28,7 +28,7 @@ module Marquetapage
 
     # Print usage
     def usage
-      puts 'Usage: firefox-bookmarks-extract TAG'
+      puts 'Usage: marquetapage TAG'
       exit!(1)
     end
 

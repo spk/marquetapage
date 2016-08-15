@@ -32,12 +32,11 @@ describe Marquetapage::Runner do
       end
 
       it 'with good arg' do
-        out, err = capture_io do
+        out, = capture_io do
           Marquetapage::Runner.run([@tag_name])
         end
         out.chomp.must_match @url
         out.chomp.must_match @content
-        err.chomp.must_equal ''
       end
     end
   end
