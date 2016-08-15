@@ -18,12 +18,12 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.test_files = Dir.glob('test/*_test.rb')
   s.require_paths = ['lib']
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.0.0'
   s.rubygems_version = '1.3.7'
-  s.add_dependency 'json', '~> 1.8'
+  s.add_dependency 'json', '~> 2.0'
   s.add_dependency 'sequel', '~> 4'
   s.add_dependency 'sqlite3', '~> 1.3'
-  s.add_development_dependency 'rake', '~> 10'
+  s.add_development_dependency 'rake', '~> 11'
   s.add_development_dependency 'minitest', '~> 5'
-  s.add_development_dependency 'rubocop', '~> 0.36'
+  s.add_development_dependency 'rubocop', '~> 0.42.0'
 end
