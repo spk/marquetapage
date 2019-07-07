@@ -3,7 +3,6 @@
 ENV['MARQUETAPAGE_ENV'] = 'test'
 require 'minitest/autorun'
 require 'marquetapage'
-require 'marquetapage/runner'
 
 DB = Marquetapage.sequel_connect
 %i[places anno_attributes items_annos bookmarks keywords favicons annos
