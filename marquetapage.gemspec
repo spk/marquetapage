@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'sequel', '~> 5'
   s.add_dependency 'sqlite3', '~> 1.3'
   s.add_development_dependency 'minitest', '~> 5'
-  s.add_development_dependency 'rake', '~> 11'
+  s.add_development_dependency 'rake', '~> 12'
   s.add_development_dependency 'rubocop', '~> 0.72.0'
 end
