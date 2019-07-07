@@ -39,10 +39,10 @@ bundle exec rake
 
 The MIT License
 
-Copyright © 2015-2016 Laurent Arnoud <laurent@spkdev.net>
+Copyright (c) 2015-2019 Laurent Arnoud <laurent@spkdev.net>
 
 ---
-[![Build](https://img.shields.io/travis-ci/spk/marquetapage.svg)](https://travis-ci.org/spk/marquetapage)
+[![Build](https://img.shields.io/travis/spk/marquetapage.svg)](https://travis-ci.org/spk/marquetapage)
 [![Version](https://img.shields.io/gem/v/marquetapage.svg)](https://rubygems.org/gems/marquetapage)
 [![Documentation](https://img.shields.io/badge/doc-rubydoc-blue.svg)](http://www.rubydoc.info/gems/marquetapage)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT "MIT")
