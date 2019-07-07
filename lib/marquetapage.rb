@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'sequel'
 
 # Marquetapage module handle env, db, and db connection

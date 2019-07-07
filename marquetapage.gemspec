@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 version_file = 'lib/marquetapage/version'
 require File.expand_path("../#{version_file}", __FILE__)
 
@@ -10,7 +12,7 @@ Gem::Specification.new do |s|
   s.email = 'laurent@spkdev.net'
   s.description = 'marquetapage'
   s.summary = 'Extract to JSON bookmarks from `places.sqlite` with specific tag'
-  s.extra_rdoc_files = %w(README.md)
+  s.extra_rdoc_files = %w[README.md]
   s.bindir = 'bin'
   s.executables << 'marquetapage'
   s.files = Dir['LICENSE', 'README.md', 'Gemfile', 'bin', 'lib/**/*.rb',
@@ -18,12 +20,11 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.test_files = Dir.glob('test/*_test.rb')
   s.require_paths = ['lib']
-  s.required_ruby_version = '>= 2.0.0'
-  s.rubygems_version = '1.3.7'
+  s.required_ruby_version = '>= 2.3.0'
   s.add_dependency 'json', '~> 2.0'
-  s.add_dependency 'sequel', '~> 4'
+  s.add_dependency 'sequel', '~> 5'
   s.add_dependency 'sqlite3', '~> 1.3'
-  s.add_development_dependency 'rake', '~> 11'
   s.add_development_dependency 'minitest', '~> 5'
-  s.add_development_dependency 'rubocop', '~> 0.42.0'
+  s.add_development_dependency 'rake', '~> 11'
+  s.add_development_dependency 'rubocop', '~> 0.72.0'
 end

@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require File.expand_path(File.join(File.dirname(__FILE__), 'test_helper'))
 
+# rubocop:disable Metrics/BlockLength
 describe Marquetapage::Runner do
   describe '.run' do
     it 'without arg' do
@@ -41,3 +44,4 @@ describe Marquetapage::Runner do
     end
   end
 end
+# rubocop:enable Metrics/BlockLength
